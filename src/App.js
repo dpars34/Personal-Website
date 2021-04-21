@@ -1,12 +1,27 @@
+import React from "react"
 import './App.css';
-import Header from "./Header/Header"
+import Header from "./Components/Header/Header"
+import WelcomeEN from "./Components/Welcome/WelcomeEN"
 
-function App() {
-  return (
-    <div className="main">
-      <Header />
-    </div>
-  )
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      IsEnglish: true
+    }
+  }
+
+  render() {
+    return (
+      <div className="container">
+        <Header />
+        <WelcomeEN />
+      </div>
+    )
+  }
+
 }
+
+
 
 export default App;
