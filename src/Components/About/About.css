@@ -1,0 +1,19 @@
+.about-area {
+    margin-top: 3rem;
+}
+
+.about-text-area {
+    background-color: #208AD0;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    color: #EDECEC;
+}
+
+.about-heading {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4rem;
+    line-height: 34px;
+    text-align: center;
+    
+}

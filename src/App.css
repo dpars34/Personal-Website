@@ -1,3 +1,19 @@
-.container {
-    background-color: #FFE600 !important;
+.heading {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4rem;
+    line-height: 34px;
+    text-align: center;
+}
+
+.section-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+:target::before {
+    content: '';
+    display: block;
+    height:      7rem;
+    margin-top: -7rem;
 }

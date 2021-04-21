@@ -5,24 +5,11 @@
     margin-top: 9rem;
 }
 
-.welcome-text {
+.welcome-text-area {
     background-color: #FAAF3E;
     margin: 1rem;
     padding: 1rem;
     border-radius: 30px;
-}
-
-.heading {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 4rem;
-    line-height: 34px;
-    color: #222222;
-    text-align: center;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
     color: #222222;
 }
 
@@ -33,4 +20,15 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+}
+
+.contact-button {
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    border: solid 3px #FA513E; 
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 15rem;
+    font-weight: bold;
 }
