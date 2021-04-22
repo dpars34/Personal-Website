@@ -1,0 +1,44 @@
+.projects-area {
+    margin-top: 3rem;
+}
+
+.project-box-title {
+    font-size: 2rem;
+}
+
+.projects-text-area {
+    background-color: #B82626;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    color: #EDECEC;
+}
+
+.project-box {
+    border: solid #EDECEC 0px;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-top: 0;
+    margin-top: 3rem;
+}
+
+.project-box-image {
+    display: block;
+    max-width:100%;
+    max-height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.project-box-link {
+    color: #EDECEC;
+    font-weight: 600;
+}
+
+.project-box-date {
+    font-style: italic;
+}

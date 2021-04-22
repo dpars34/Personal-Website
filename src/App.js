@@ -1,8 +1,10 @@
 import React from "react"
 import './App.css';
 import Header from "./Components/Header/Header"
-import WelcomeEN from "./Components/Welcome/WelcomeEN"
-import AboutEN from "./Components/About/AboutEN"
+import Welcome from "./Components/Welcome/Welcome"
+import About from "./Components/About/About"
+import Projects from "./Components/Projects/Projects"
+import Contact from "./Components/Contact/Contact"
 
 class App extends React.Component {
   constructor() {
@@ -16,8 +18,10 @@ class App extends React.Component {
     return (
       <div className="container">
         <Header />
-        <WelcomeEN />
-        <AboutEN />
+        <Welcome />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     )
   }
