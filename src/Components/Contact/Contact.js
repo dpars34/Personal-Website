@@ -1,11 +1,60 @@
 import React from "react"
+import "./Contact.css"
+import emailjs from 'emailjs-com';
 
-function Contacts() {
-    return (
-        <div>
-            <h3>Hello!</h3>
+function Contact(){
+
+    function sendMessage(e) {
+
+        e.preventDefault()
+
+        emailjs.sendForm("service_oecmsbq", "template_bjgamid", e.target, "user_9EtEh0xOJ964JtXdN23UQ")
+        .then((result) => {
+            console.log(result.text)
+            alert("Message sent successfully!")
+        }, (error) => {
+            console.log(error.text)
+            alert("Message could not be sent! "+error);
+        })
+        e.target.reset()
+    }    
+
+
+    const englishText = {
+        sectionText: "Please feel free to get in touch with me using the form below!",
+        nameLabel: "Name",
+        namePlaceholder: "Your full name",
+        emailLabel: "Email",
+        emailPlaceholder: "Your email address",
+        messageLabel: "Message",
+        messagePlaceholder: "Enter your message here...",
+        buttonValue: "Send"
+    }
+
+    return(
+        <div className="contact-area">
+            <div className="contact-text-area">
+                <h3 className="heading">Contact</h3>
+                <p className="section-text">{englishText.sectionText}</p>
+
+                <form className="contact-form" onSubmit={sendMessage}>
+                    <input className="contact-input" type="hidden" name="contact_number" />
+
+                    <label className="contact-label">{englishText.nameLabel}</label>
+                    <input className="contact-input" type="text" name="user_name" autoComplete="off" placeholder={englishText.namePlaceholder}/>
+
+                    <label className="contact-label">{englishText.emailLabel}</label>
+                    <input className="contact-input" type="email" name="user_email" autoComplete="off" placeholder={englishText.emailPlaceholder}/>
+
+                    <label className="contact-label">{englishText.messageLabel}</label>
+                    <textarea className="contact-text" name="message" autoComplete="off" placeholder={englishText.messagePlaceholder}/>
+
+                    <input className="contact-area-button" type="submit" value={englishText.buttonValue} />
+                </form>
+            </div>
         </div>
     )
+    
 }
 
-export default Contacts 
+export default Contact
