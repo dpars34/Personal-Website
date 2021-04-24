@@ -4,12 +4,13 @@ import "./Header.css"
 function Header() {
     return(
         <header>
-            <p className="personal-logo">Daniel Parsons</p>
+            <a className="personal-logo-link" href="#welcome-area" >
+                <p className="personal-logo">Daniel Parsons</p></a>
             <hr />
             <div className="nav-bar">
                 <a href="#about-area" className="nav-link">About Me</a>
                 <a href="#projects-area" className="nav-link">Projects</a>
-                <a href="#contact" className="nav-link">Get In Touch</a>
+                <a href="#contact-area" className="nav-link">Get In Touch</a>
             </div>
         </header>
     )

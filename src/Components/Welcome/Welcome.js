@@ -11,7 +11,7 @@ function Welcome(props) {
     }
 
     return (
-        <div className="welcome-area">
+        <div className="welcome-area" id="welcome-area">
             <div className="welcome-text-area">
                 <h1 className="heading">Welcome</h1>
                 <img className="mugshot" src={mugshot} alt="profile"/>

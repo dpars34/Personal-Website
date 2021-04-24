@@ -27,27 +27,27 @@ function Contact(){
         emailLabel: "Email",
         emailPlaceholder: "Your email address",
         messageLabel: "Message",
-        messagePlaceholder: "Enter your message here...",
+        messagePlaceholder: "Your message here...",
         buttonValue: "Send"
     }
 
     return(
-        <div className="contact-area">
+        <div className="contact-area" id="contact-area">
             <div className="contact-text-area">
                 <h3 className="heading">Contact</h3>
                 <p className="section-text">{englishText.sectionText}</p>
 
-                <form className="contact-form" onSubmit={sendMessage}>
+                <form className="contact-form" onSubmit={sendMessage} method="POST">
                     <input className="contact-input" type="hidden" name="contact_number" />
 
                     <label className="contact-label">{englishText.nameLabel}</label>
-                    <input className="contact-input" type="text" name="user_name" autoComplete="off" placeholder={englishText.namePlaceholder}/>
+                    <input className="contact-input" type="text" name="user_name" autoComplete="off" placeholder={englishText.namePlaceholder} required />
 
                     <label className="contact-label">{englishText.emailLabel}</label>
-                    <input className="contact-input" type="email" name="user_email" autoComplete="off" placeholder={englishText.emailPlaceholder}/>
+                    <input className="contact-input" type="email" name="user_email" autoComplete="off" placeholder={englishText.emailPlaceholder} required/>
 
                     <label className="contact-label">{englishText.messageLabel}</label>
-                    <textarea className="contact-text" name="message" autoComplete="off" placeholder={englishText.messagePlaceholder}/>
+                    <textarea className="contact-text" name="message" autoComplete="off" placeholder={englishText.messagePlaceholder} required/>
 
                     <input className="contact-area-button" type="submit" value={englishText.buttonValue} />
                 </form>

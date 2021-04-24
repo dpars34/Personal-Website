@@ -1,0 +1,49 @@
+footer {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin-top: -12.5rem;
+}
+
+.footer-block {
+    display:flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.personal-logo-bottom {
+    font-family: 'Pacifico', cursive;
+    text-align: left;
+    color: grey;
+    font-size: 1.2rem;
+    margin: 0.3rem;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+}
+
+.hr-bottom {
+    width: 100%;
+}
+
+.footer-container {
+    padding: 1rem;
+}
+
+.footer-heading {
+    font-weight: 600;
+    color: #222222
+}
+
+.footer-link {
+    color: #222222;
+    text-decoration: none;
+    padding-top: 0.5rem;
+}
+
+.copyright {
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: left;
+    color: grey;
+}

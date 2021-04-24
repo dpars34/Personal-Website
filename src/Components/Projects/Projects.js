@@ -1,7 +1,7 @@
 import React from "react"
 import "./Projects.css"
 import ProjectBox from "./ProjectBox"
-import calculator from "./calculator.jpeg"
+import calculator from "./calculator.png"
 
 function Projects() {
 
