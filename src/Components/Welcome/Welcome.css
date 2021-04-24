@@ -26,9 +26,19 @@
     margin: 0 auto;
     display: block;
     background-color: white;
-    border: solid 3px #FA513E; 
+    border: solid 1px #222222; 
     padding: 0.5rem;
     border-radius: 40px;
     width: 100%;
     font-weight: bold;
+}
+
+@media (max-width:900px) and (min-width:400px) {
+    .welcome-text-area {
+        background-color: #FAAF3E;
+        margin: 3rem;
+        padding: 1rem;
+        border-radius: 30px;
+        color: #222222;
+    }
 }

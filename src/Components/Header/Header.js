@@ -10,7 +10,7 @@ function Header() {
             <div className="nav-bar">
                 <a href="#about-area" className="nav-link">About Me</a>
                 <a href="#projects-area" className="nav-link">Projects</a>
-                <a href="#contact-area" className="nav-link">Get In Touch</a>
+                <a href="#contact-area" className="nav-link">Contact</a>
             </div>
         </header>
     )

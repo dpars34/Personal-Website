@@ -3,9 +3,9 @@
 }
 
 .about-text-area {
-    background-color: #208AD0;
     margin: 1rem;
     padding: 1rem;
     border-radius: 30px;
+    background-color: #208AD0;
     color: #EDECEC;
 }

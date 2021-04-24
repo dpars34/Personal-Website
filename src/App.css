@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.text-area {
+    
+}
+
 :target::before {
     content: '';
     display: block;
