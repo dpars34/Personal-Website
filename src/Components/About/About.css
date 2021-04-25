@@ -9,3 +9,51 @@
     background-color: #208AD0;
     color: #EDECEC;
 }
+
+#section-text4 {
+    display: none;
+}
+
+@media (max-width:768px) and (min-width:481px) {
+    .about-text-area {
+        background-color: #208AD0;
+        margin: 3rem;
+        padding: 3rem;
+        border-radius: 30px;
+        color: #EDECEC;
+    }
+
+    #section-text3 {
+        display:inline-block;
+    }
+}
+
+@media (min-width:769px) {
+
+    .about-text-area {
+        background-color: #208AD0;
+        margin: 3rem 10rem;
+        padding: 3rem;
+        border-radius: 30px;
+        color: #EDECEC;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+
+    #section-text4 {
+        display:inline-block;
+    }
+
+    .text-box {
+        display: flex;
+    }
+
+    .text-col {
+        width: 45%;
+        padding: 1rem;
+    }
+
+    .vertical-line {
+        border-left: solid 2px white;
+        width: 1%
+      }
+}

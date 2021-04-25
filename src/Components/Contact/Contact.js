@@ -38,13 +38,21 @@ function Contact(){
                 <p className="section-text">{englishText.sectionText}</p>
 
                 <form className="contact-form" onSubmit={sendMessage} method="POST">
-                    <input className="contact-input" type="hidden" name="contact_number" />
+                    <input className="contact-input" type="hidden" name="contact_number " />
 
-                    <label className="contact-label">{englishText.nameLabel}</label>
-                    <input className="contact-input" type="text" name="user_name" autoComplete="off" placeholder={englishText.namePlaceholder} required />
+                    <div className="form-flex">
 
-                    <label className="contact-label">{englishText.emailLabel}</label>
-                    <input className="contact-input" type="email" name="user_email" autoComplete="off" placeholder={englishText.emailPlaceholder} required/>
+                        <div className="form-group">
+                            <label className="contact-label">{englishText.nameLabel}</label>
+                            <input className="contact-input" type="text" name="user_name" autoComplete="off" placeholder={englishText.namePlaceholder} required />
+                        </div>
+                        
+                        <div className="form-group">
+                            <label className="contact-label">{englishText.emailLabel}</label>
+                            <input className="contact-input" type="email" name="user_email" autoComplete="off" placeholder={englishText.emailPlaceholder} required/>
+                        </div>
+                        
+                    </div>
 
                     <label className="contact-label">{englishText.messageLabel}</label>
                     <textarea className="contact-text" name="message" autoComplete="off" placeholder={englishText.messagePlaceholder} required/>

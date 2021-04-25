@@ -28,6 +28,7 @@
     border-radius: 10px;
     border: 0;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
 }
 
 .contact-text {
@@ -37,6 +38,7 @@
     border: 0;
     font-family: 'Open Sans', sans-serif;
     min-height: 4rem;
+    font-size: 1rem;
 }
 
 .contact-area-button {
@@ -49,4 +51,56 @@
     border-radius: 40px;
     width: 100%;
     font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width:768px) and (min-width:481px) {
+
+    .contact-text-area {
+        background-color: #FAAF3E;
+        margin: 3rem;
+        padding: 3rem;
+        border-radius: 30px;
+        color: #222222;
+    }
+}
+
+@media (min-width:769px) {
+
+    .contact-text-area {
+        background-color: #FAAF3E;
+        margin: 3rem 10rem;
+        padding: 3rem;
+        border-radius: 30px;
+        color: #222222;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .form-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+    }
+
+    .contact-area-button {
+        margin: 0;
+        margin-top: 1rem;
+        display: block;
+        background-color: white;
+        border: solid 1px #222222;
+        padding: 0.5rem;
+        border-radius: 40px;
+        width: 25%;
+        font-weight: bold;
+    }
 }

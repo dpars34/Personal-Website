@@ -11,13 +11,40 @@
     text-align: center;
 }
 
-.text-area {
-    
-}
-
 :target::before {
     content: '';
     display: block;
     height:      7rem;
     margin-top: -7rem;
+}
+
+@media (max-width: 350px) {
+    .heading {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 3rem;
+        line-height: 34px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .section-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .heading {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 4rem;
+        line-height: 34px;
+        text-align: left;
+    }
+
+    :target::before {
+        content: '';
+        display: block;
+        height:      3rem;
+        margin-top: -3rem;
+    }
 }

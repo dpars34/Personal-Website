@@ -31,6 +31,8 @@
     border-radius: 0px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 
 .project-box-link {
@@ -41,4 +43,52 @@
 
 .project-box-date {
     font-style: italic;
+}
+
+
+
+@media (max-width:768px) and (min-width:481px) {
+    .projects-text-area {
+        background-color: #B82626;
+        margin: 3rem;
+        padding: 3rem;
+        border-radius: 30px;
+        color: #EDECEC;
+    }
+}
+
+@media (min-width:769px) {
+
+    .project-box {
+        border: solid #EDECEC 0px;
+        border-radius: 10px;
+        padding: 1rem;
+        padding-top: 0;
+        margin-top: 0rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .projects-text-area {
+        background-color: #B82626;
+        margin: 3rem 10rem;
+        padding: 3rem;
+        border-radius: 30px;
+        color: #EDECEC;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .flex-container-project {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .project-box {
+        width: 42%;
+    }
+
+    .vertical-line {
+        border-left: solid 2px white;
+        width: 1%
+      }
 }

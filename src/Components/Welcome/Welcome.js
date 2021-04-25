@@ -13,13 +13,15 @@ function Welcome(props) {
     return (
         <div className="welcome-area" id="welcome-area">
             <div className="welcome-text-area">
+                <div className="content">
                 <h1 className="heading">Welcome</h1>
-                <img className="mugshot" src={mugshot} alt="profile"/>
-                <p className="section-text">{englishText.sectionText1}</p>
-                <p className="section-text">{englishText.sectionText2}</p>
-                <form action="#contact-area">
-                    <button className="contact-button">{englishText.buttonText}</button>
-                </form>
+                    <img className="mugshot" src={mugshot} alt="profile"/>
+                    <p className="section-text">{englishText.sectionText1}</p>
+                    <p className="section-text">{englishText.sectionText2}</p>
+                    <form action="#contact-area">
+                        <button className="contact-button">{englishText.buttonText}</button>
+                    </form>
+                </div>  
             </div>
         </div>
     )

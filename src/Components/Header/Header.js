@@ -4,7 +4,7 @@ import "./Header.css"
 function Header() {
     return(
         <header>
-            <a className="personal-logo-link" href="#welcome-area" >
+            <a className="personal-logo-link" href="top" >
                 <p className="personal-logo">Daniel Parsons</p></a>
             <hr />
             <div className="nav-bar">
