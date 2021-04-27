@@ -11,15 +11,23 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      IsEnglish: true
+      isEnglish: true
     }
+    this.languageChanger = this.languageChanger.bind(this)
+  }
+
+  languageChanger() {
+    this.setState(prevState => {
+      return {
+        isEnglish: !prevState.isEnglish
+    }})
   }
 
   render() {
     return (
       <div className="container">
-        <Header />
-        <Welcome />
+        <Header isEnglish={this.state.isEnglish} languageChanger={this.languageChanger}/>
+        <Welcome isEnglish={this.state.isEnglish} />
         <About />
         <Projects />
         <Contact />

@@ -12,7 +12,8 @@ function Footer() {
         gitHub: "GitHub",
         linkedIn: "LinkedIn",
         instagram: "Instagram",
-        facebook: "Facebook"
+        facebook: "Facebook",
+        languages: "Languages"
     }
 
     return(
@@ -36,7 +37,14 @@ function Footer() {
                         <a href="https://www.linkedin.com/in/daniel-parsons-b2491420a" className="footer-link">{englishText.linkedIn}</a>
                         <a href="https://www.instagram.com/dpars34/" className="footer-link">{englishText.instagram}</a>
                         <a href="https://www.facebook.com/daniel.parsons.372" className="footer-link">{englishText.facebook}</a>
+                    </div> <br />
+
+                    <div className="footer-block">
+                        <p className="footer-heading">{englishText.languages}</p>
+                        <a href="#welcome-area" className="footer-link">English</a>
+                        <a href="#welcome-area" className="footer-link">日本語</a>
                     </div>
+
                 </div>
 
                 <p className="copyright">© Daniel Parsons 2021</p>

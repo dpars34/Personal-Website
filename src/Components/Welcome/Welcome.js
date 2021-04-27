@@ -10,14 +10,20 @@ function Welcome(props) {
         buttonText: "Get In Touch"
     }
 
+    const japaneseText = {
+        sectionText1: "イギリス出身、現在日本に住んでいるバイリンガルウェブ開発者、ダニエル　パーソンズです。",
+        sectionText2: "このサイトは、今まで作成したプロジェクトを紹介するために作られましたので、ぜひご覧ください。",
+        buttonText: "Get In Touch"
+    }
+
     return (
         <div className="welcome-area" id="welcome-area">
             <div className="welcome-text-area">
                 <div className="content">
                 <h1 className="heading">Welcome</h1>
                     <img className="mugshot" src={mugshot} alt="profile"/>
-                    <p className="section-text">{englishText.sectionText1}</p>
-                    <p className="section-text">{englishText.sectionText2}</p>
+                    <p className="section-text">{props.isEnglish ? englishText.sectionText1 : japaneseText.sectionText1}</p>
+                    <p className="section-text">{props.isEnglish ? englishText.sectionText2 : japaneseText.sectionText2}</p>
                     <form action="#contact-area">
                         <button className="contact-button">{englishText.buttonText}</button>
                     </form>

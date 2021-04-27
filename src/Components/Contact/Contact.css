@@ -72,9 +72,14 @@
 
 @media (min-width:769px) {
 
+    .contact-area {
+        margin-top: 7rem;
+        margin-bottom: 18rem;
+    }
+
     .contact-text-area {
         background-color: #FAAF3E;
-        margin: 3rem 10rem;
+        margin: 3rem 10%;
         padding: 3rem;
         border-radius: 30px;
         color: #222222;

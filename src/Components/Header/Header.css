@@ -38,6 +38,21 @@ hr {
     color: #222222
 }
 
+.lang-button {
+    display: none;
+    position: fixed;
+    top: 0.5rem;
+    right: 0rem;
+    background-color: white;
+    border: solid 1px #222222;
+    padding: 0.5rem;
+    border-radius: 40px;
+    width: auto;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
+
 @media (min-width:769px) {
     header {
         display: flex;
@@ -58,10 +73,25 @@ hr {
         color: #222222;
         text-decoration: none;
         padding: 0.5rem;
-        margin: 0rem 0.5rem;
+        margin: 0.3rem 0.5rem;
     }    
 
     hr {
         display: none;
     }
+
+    .lang-button {
+        display: inline-block;
+        position: relative;
+        top: 0;
+        background-color: white;
+        border: solid 1px #222222;
+        padding: 0.5rem;
+        border-radius: 40px;
+        width: auto;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: 3rem;
+    }
+
 }

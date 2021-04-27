@@ -1,7 +1,11 @@
 import React from "react"
 import "./Header.css"
 
-function Header() {
+function Header(props) {
+
+    const englishText = "English"
+    const japaneseText= "日本語"
+
     return(
         <header>
             <a className="personal-logo-link" href="top" >
@@ -12,6 +16,8 @@ function Header() {
                 <a href="#projects-area" className="nav-link">Projects</a>
                 <a href="#contact-area" className="nav-link">Contact</a>
             </div>
+            <div className="button-container"></div>
+            <button onClick={props.languageChanger} className="lang-button">{props.isEnglish ? japaneseText : englishText}</button>
         </header>
     )
 }

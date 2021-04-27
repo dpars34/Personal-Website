@@ -55,19 +55,21 @@
 @media (min-width:769px) {
 
     .welcome-area {
-        min-height: 70vh;
-        margin-top: 11rem;
+        margin-top: 30vh;
+        margin-bottom: 20vh;
     }
 
     .welcome-text-area {
         position: relative;
         background-color: #FAAF3E;
         max-width: 30vw;
-        margin: 5rem 0 3rem 20%;
+        margin: 5rem 0 3rem 20vw;
         padding: 2rem 5rem 2rem 2rem;
         border-radius: 30px;
         color: #222222;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        animation-name: fadein;
+        animation-duration: 2s;
     }
 
     .mugshot {
@@ -82,6 +84,8 @@
         border-radius: 30px;
         z-index: 0;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        animation-name: fadein;
+        animation-duration: 1s;
     }
 
     .contact-button {
