@@ -28,10 +28,10 @@ class App extends React.Component {
       <div className="container">
         <Header isEnglish={this.state.isEnglish} languageChanger={this.languageChanger}/>
         <Welcome isEnglish={this.state.isEnglish} />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
+        <About isEnglish={this.state.isEnglish} />
+        <Projects isEnglish={this.state.isEnglish} />
+        <Contact isEnglish={this.state.isEnglish} />
+        <Footer isEnglish={this.state.isEnglish} />
       </div>
     )
   }

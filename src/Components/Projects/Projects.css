@@ -79,6 +79,8 @@
         border-radius: 30px;
         color: #EDECEC;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        animation-name: fadein;
+        animation-duration: 2s;
     }
 
     .flex-container-project {
