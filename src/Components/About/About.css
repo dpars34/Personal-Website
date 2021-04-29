@@ -14,7 +14,7 @@
     display: none;
 }
 
-@media (max-width:768px) and (min-width:481px) {
+@media (max-width:900px) and (min-width:481px) {
     .about-text-area {
         background-color: #208AD0;
         margin: 3rem;
@@ -28,7 +28,7 @@
     }
 }
 
-@media (min-width:769px) {
+@media (min-width:901px) {
 
     .about-text-area {
         background-color: #208AD0;

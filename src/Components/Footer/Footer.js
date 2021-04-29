@@ -1,7 +1,7 @@
 import React from "react"
 import "./Footer.css"
 
-function Footer() {
+function Footer(props) {
 
     const englishText = {
         siteMap: "Site Map",
@@ -41,8 +41,8 @@ function Footer() {
 
                     <div className="footer-block">
                         <p className="footer-heading">{englishText.languages}</p>
-                        <a href="#welcome-area" className="footer-link">English</a>
-                        <a href="#welcome-area" className="footer-link">日本語</a>
+                        <a href="#welcome-area" className="footer-link" onClick={props.toEnglish}>English</a>
+                        <a href="#welcome-area" className="footer-link" onClick={props.toJapanese}>日本語</a>
                     </div>
 
                 </div>

@@ -48,7 +48,7 @@ footer {
     color: grey;
 }
 
-@media (min-width:769px) {
+@media (min-width:901px) {
 
     .footer-flex {
         display: flex;

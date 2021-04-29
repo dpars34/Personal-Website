@@ -31,9 +31,10 @@
     border-radius: 40px;
     width: 100%;
     font-weight: bold;
+    transition: transform .2s;
 }
 
-@media (max-width:768px) and (min-width:481px) {
+@media (max-width:900px) and (min-width:481px) {
     .welcome-text-area {
         background-color: #FAAF3E;
         margin: 3rem;
@@ -52,7 +53,7 @@
     }
 }
 
-@media (min-width:769px) {
+@media (min-width:901px) {
 
     .welcome-area {
         margin-top: 30vh;
@@ -62,7 +63,7 @@
     .welcome-text-area {
         position: relative;
         background-color: #FAAF3E;
-        min-height: 20rem; /*Is this a good idea?*/
+        min-height: 20rem; /*Is this */
         max-width: 30vw;
         margin: 5rem 0 3rem 20vw;
         padding: 2rem 5rem 2rem 2rem;

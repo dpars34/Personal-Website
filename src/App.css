@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 901px) {
     .section-text {
         font-family: 'Open Sans', sans-serif;
         font-size: 1rem;
@@ -46,6 +46,10 @@
         display: block;
         height:      3rem;
         margin-top: -3rem;
+    }
+
+    button:hover {
+        transform: scale(1.1);
     }
 }
 

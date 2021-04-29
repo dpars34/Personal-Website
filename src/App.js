@@ -14,6 +14,9 @@ class App extends React.Component {
       isEnglish: true
     }
     this.languageChanger = this.languageChanger.bind(this)
+    this.toEnglish = this.toEnglish.bind(this)
+    this.toJapanese = this.toJapanese.bind(this)
+
   }
 
   languageChanger() {
@@ -21,6 +24,14 @@ class App extends React.Component {
       return {
         isEnglish: !prevState.isEnglish
     }})
+  }
+
+  toEnglish() {
+    this.setState({isEnglish: true})
+  }
+
+  toJapanese() {
+    this.setState({isEnglish: false})
   }
 
   render() {
@@ -31,7 +42,7 @@ class App extends React.Component {
         <About isEnglish={this.state.isEnglish} />
         <Projects isEnglish={this.state.isEnglish} />
         <Contact isEnglish={this.state.isEnglish} />
-        <Footer isEnglish={this.state.isEnglish} />
+        <Footer isEnglish={this.state.isEnglish} toEnglish={this.toEnglish} toJapanese={this.toJapanese}/>
       </div>
     )
   }

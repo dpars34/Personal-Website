@@ -59,7 +59,7 @@
     width: 100%;
 }
 
-@media (max-width:768px) and (min-width:481px) {
+@media (max-width:900px) and (min-width:481px) {
 
     .contact-text-area {
         background-color: #FAAF3E;
@@ -70,7 +70,7 @@
     }
 }
 
-@media (min-width:769px) {
+@media (min-width:901px) {
 
     .contact-area {
         margin-top: 7rem;
@@ -109,5 +109,10 @@
         border-radius: 40px;
         width: 25%;
         font-weight: bold;
+        transition: transform .2s;
+    }
+
+    .contact-area-button:hover {
+        transform: scale(1.1);
     }
 }
