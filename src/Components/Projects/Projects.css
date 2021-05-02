@@ -47,7 +47,7 @@
 
 .project-rule {
     width: 70%;
-    border: solid 1px #FDFCDC;
+    border: solid 2px #FDFCDC;
 }
 
 
@@ -83,7 +83,7 @@
     }
 
     .projects-text-area {
-        background-color: #F07167;
+        background-color: #00AFB9;
         margin: 3rem 10%;
         padding: 3rem;
         border-radius: 30px;
