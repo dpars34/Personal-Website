@@ -35,7 +35,7 @@
     transition: transform .2s;
 }
 
-@media (max-width: 350px) {
+@media (max-height: 700px) and (max-width:900px){
     .welcome-area {
         margin-top: 4rem;
     }
