@@ -7,15 +7,15 @@
 }
 
 .projects-text-area {
-    background-color: #B82626;
+    background-color: #F07167;
     margin: 1rem;
     padding: 1rem;
     border-radius: 30px;
-    color: #EDECEC;
+    color: #FDFCDC;
 }
 
 .project-box {
-    border: solid #EDECEC 0px;
+    border: solid #FDFCDC 0px;
     border-radius: 10px;
     padding: 1rem;
     padding-top: 0;
@@ -36,7 +36,7 @@
 }
 
 .project-box-link {
-    color: #EDECEC;
+    color: #FDFCDC;
     font-weight: 600;
     text-decoration: none;
 }
@@ -45,15 +45,20 @@
     font-style: italic;
 }
 
+.project-rule {
+    width: 70%;
+    border: solid 1px #FDFCDC;
+}
+
 
 
 @media (max-width:900px) and (min-width:481px) {
     .projects-text-area {
-        background-color: #B82626;
+        background-color: #F07167;
         margin: 3rem;
         padding: 3rem;
         border-radius: 30px;
-        color: #EDECEC;
+        color: #FDFCDC;
     }
 }
 
@@ -64,7 +69,7 @@
     }
 
     .project-box {
-        border: solid #EDECEC 0px;
+        border: solid #FDFCDC 0px;
         border-radius: 10px;
         padding: 1rem;
         padding-top: 0;
@@ -78,11 +83,11 @@
     }
 
     .projects-text-area {
-        background-color: #B82626;
+        background-color: #F07167;
         margin: 3rem 10%;
         padding: 3rem;
         border-radius: 30px;
-        color: #EDECEC;
+        color: #FDFCDC;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         animation-name: fadein;
         animation-duration: 2s;
@@ -99,7 +104,7 @@
     }
 
     .vertical-line {
-        border-left: solid 2px white;
+        border-left: solid 2px #FDFCDC;
         width: 1%
       }
 }

@@ -33,41 +33,41 @@ function Contact(props){
     const japaneseText = {
         sectionText: "お問い合わせは下記のフォームからお願いいたします。",
         nameLabel: "お名前",
-        namePlaceholder: "Your full name",
+        namePlaceholder: "お名前を入力してください",
         emailLabel: "メールアドレス",
-        emailPlaceholder: "Your email address",
+        emailPlaceholder: "メールアドレスを入力してください",
         messageLabel: "お問い合わせ内容",
-        messagePlaceholder: "Your message here...",
-        buttonValue: "Send"
+        messagePlaceholder: "お問い合わせ内容を入力してください",
+        buttonValue: "送信"
     }
 
     return(
         <div className="contact-area" id="contact-area">
             <div className="contact-text-area">
                 <h3 className="heading">Contact</h3>
-                <p className="section-text">{props.isEnglish ? englishText.sectionText : japaneseText.sectionText}</p>
+                <p className="section-text" lang={props.isEnglish ? "en" : "ja"}>{props.isEnglish ? englishText.sectionText : japaneseText.sectionText}</p>
 
                 <form className="contact-form" onSubmit={sendMessage} method="POST">
                     <input className="contact-input" type="hidden" name="contact_number " />
 
-                    <div className="form-flex">
+                    <div className="form-flex" lang={props.isEnglish ? "en" : "ja"}>
 
                         <div className="form-group">
                             <label className="contact-label">{props.isEnglish ? englishText.nameLabel : japaneseText.nameLabel}</label>
-                            <input className="contact-input" type="text" name="user_name" autoComplete="off" placeholder={englishText.namePlaceholder} required />
+                            <input className="contact-input" type="text" name="user_name" autoComplete="off" placeholder={props.isEnglish ? englishText.namePlaceholder : japaneseText.namePlaceholder} required />
                         </div>
                         
                         <div className="form-group">
                             <label className="contact-label">{props.isEnglish ? englishText.emailLabel : japaneseText.emailLabel}</label>
-                            <input className="contact-input" type="email" name="user_email" autoComplete="off" placeholder={englishText.emailPlaceholder} required/>
+                            <input className="contact-input" type="email" name="user_email" autoComplete="off" placeholder={props.isEnglish ? englishText.emailPlaceholder : japaneseText.emailPlaceholder} required/>
                         </div>
                         
                     </div>
 
-                    <label className="contact-label">{props.isEnglish ? englishText.messageLabel : japaneseText.messageLabel}</label>
-                    <textarea className="contact-text" name="message" autoComplete="off" placeholder={englishText.messagePlaceholder} required/>
+                    <label className="contact-label" lang={props.isEnglish ? "en" : "ja"}>{props.isEnglish ? englishText.messageLabel : japaneseText.messageLabel}</label>
+                    <textarea className="contact-text" name="message" autoComplete="off" placeholder={props.isEnglish ? englishText.messagePlaceholder : japaneseText.messagePlaceholder} required/>
 
-                    <input className="contact-area-button" type="submit" value={englishText.buttonValue} />
+                    <input className="contact-area-button" type="submit" value={props.isEnglish ? englishText.buttonValue : japaneseText.buttonValue} />
                 </form>
             </div>
         </div>

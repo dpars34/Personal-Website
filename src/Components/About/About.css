@@ -6,8 +6,8 @@
     margin: 1rem;
     padding: 1rem;
     border-radius: 30px;
-    background-color: #208AD0;
-    color: #EDECEC;
+    background-color: #00AFB9;
+    color: #FDFCDC;
 }
 
 #section-text4 {
@@ -16,11 +16,11 @@
 
 @media (max-width:900px) and (min-width:481px) {
     .about-text-area {
-        background-color: #208AD0;
+        background-color: #00AFB9;
         margin: 3rem;
         padding: 3rem;
         border-radius: 30px;
-        color: #EDECEC;
+        color: #FDFCDC;
     }
 
     #section-text3 {
@@ -31,11 +31,11 @@
 @media (min-width:901px) {
 
     .about-text-area {
-        background-color: #208AD0;
+        background-color: #00AFB9;
         margin: 3rem 10%;
         padding: 3rem;
         border-radius: 30px;
-        color: #EDECEC;
+        color: #FDFCDC;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         animation-name: fadein;
         animation-duration: 2s;
@@ -55,7 +55,7 @@
     }
 
     .vertical-line {
-        border-left: solid 2px #EDECEC;
+        border-left: solid 2px #FDFCDC;
         width: 1%
       }
 }

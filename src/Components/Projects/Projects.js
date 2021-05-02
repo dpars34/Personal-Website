@@ -54,10 +54,8 @@ function Projects(props) {
         <div className="projects-area" id="projects-area">
             <div className="projects-text-area" >
                 <h2 className="heading">Projects</h2>
-                {/*<p className="section-text">{englishText.sectionText}</p>*/}
                 <div className="flex-container-project">
                     <ProjectBox info={props.isEnglish ? projectTextEnglish1 : projectTextJapanese1} />
-                    {/*<div className="vertical-line"></div>*/}
                     <ProjectBox info={props.isEnglish ? projectTextEnglish2 : projectTextJapanese2} />
                 </div>
             </div>
