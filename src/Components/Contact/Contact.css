@@ -52,6 +52,7 @@
     border-radius: 40px;
     width: 100%;
     font-weight: bold;
+    -webkit-appearance: none;
 }
 
 .form-group {
@@ -112,6 +113,7 @@
         width: 25%;
         font-weight: bold;
         transition: transform .2s;
+        -webkit-appearance: none;
     }
 
     .contact-area-button:hover {
