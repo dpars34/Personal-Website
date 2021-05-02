@@ -35,6 +35,12 @@
     transition: transform .2s;
 }
 
+@media (max-width: 350px) {
+    .welcome-area {
+        margin-top: 4rem;
+    }
+}
+
 @media (max-width:900px) and (min-width:481px) {
     .welcome-text-area {
         background-color: #F07167;
