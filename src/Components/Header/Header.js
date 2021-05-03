@@ -8,7 +8,7 @@ function Header(props) {
 
     return(
         <header>
-            <a className="personal-logo-link" href="top" >
+            <a className="personal-logo-link" href="#welcome-area" >
                 <p className="personal-logo">Daniel Parsons</p></a>
             <hr className="header-rule"/>
             <div className="nav-bar">
