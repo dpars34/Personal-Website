@@ -2,8 +2,13 @@ import React from "react"
 import "./Projects.css"
 
 function ProjectBox(props) {
+
+    function clickHandler() {
+        window.location.assign(props.info.projectBoxLink)
+    }
+
     return (
-        <div className="project-box">
+        <div className="project-box" onClick={clickHandler}>
             <hr className="project-rule"/>
             <h3 className="project-box-title" lang={props.isEnglish ? "en" : "ja"}>{props.info.projectBoxTitle}</h3>
             
