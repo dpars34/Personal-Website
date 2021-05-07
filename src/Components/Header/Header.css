@@ -4,7 +4,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #FDFCDC;
+    background-color: white;
     z-index: 1;
 }
 
@@ -14,7 +14,7 @@ header {
 }
 
 .nav-link {
-    color: #F07167;
+    color: #222222;
     text-decoration: none;
     padding: 1rem;
 }
@@ -27,7 +27,7 @@ header {
 .personal-logo {
     font-family: 'Pacifico', cursive;
     text-align: center;
-    color: #F07167;
+    color: #FA513E;
     font-size: 1.2rem;
     margin: 0.3rem;
     margin-top: 0.6rem;
@@ -35,7 +35,7 @@ header {
 
 .header-rule {
     width: 70%;
-    border: solid 1px #F07167;
+    border: solid 1px #acacac;
 }
 
 .lang-button {
@@ -43,8 +43,8 @@ header {
     position: fixed;
     top: 0.5rem;
     right: 0rem;
-    background-color: #FDFCDC;
-    border: solid 1px #F07167;
+    background-color: white;
+    border: solid 1px #FA513E;
     padding: 0.5rem;
     border-radius: 40px;
     width: auto;
@@ -74,13 +74,13 @@ header {
     .personal-logo {
         font-family: 'Pacifico', cursive;
         text-align: center;
-        color: #F07167;
+        color: #FA513E;
         font-size: 1.3rem;
         margin: 0rem 1rem;
     }
 
     .nav-link {
-        color: #F07167;
+        color: #222222;
         text-decoration: none;
         padding: 0.5rem;
         margin: 0.3rem 0.5rem;
@@ -94,9 +94,9 @@ header {
         display: inline-block;
         position: relative;
         top: 0;
-        color: #F07167;
-        background-color: #FDFCDC;
-        border: solid 2px #F07167;
+        color: #222222;
+        background-color: white;
+        border: solid 2px #222222;
         padding: 0.5rem;
         border-radius: 40px;
         width: auto;

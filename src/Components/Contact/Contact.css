@@ -4,11 +4,11 @@
 }
 
 .contact-text-area {
-    background-color: #00AFB9;
+    background-color: #FAAF3E;
     margin: 1rem;
     padding: 1rem;
     border-radius: 30px;
-    color: #FDFCDC;
+    color: #222222;
 }
 
 .contact-form {
@@ -45,9 +45,9 @@
     margin: 0 auto;
     margin-top: 1rem;
     display: block;
-    color: #FDFCDC;
-    background-color: #00AFB9;
-    border: solid 2px #FDFCDC;
+    color: #222222;
+    background-color: white;
+    border: solid 1px #222222;
     padding: 0.5rem;
     border-radius: 40px;
     width: 100%;
@@ -64,11 +64,11 @@
 @media (max-width:900px) and (min-width:481px) {
 
     .contact-text-area {
-        background-color: #00AFB9;
+        background-color: #FAAF3E;
         margin: 3rem;
         padding: 3rem;
         border-radius: 30px;
-        color: #FDFCDC;
+        color: #222222;
     }
 }
 
@@ -80,11 +80,11 @@
     }
 
     .contact-text-area {
-        background-color: #00AFB9;
+        background-color: #FAAF3E;
         margin: 3rem 10%;
         padding: 3rem;
         border-radius: 30px;
-        color: #FDFCDC;
+        color: #222222;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         animation-name: fadein;
         animation-duration: 2s;
@@ -105,9 +105,9 @@
         margin: 0;
         margin-top: 1rem;
         display: block;
-        color: #FDFCDC;
-        background-color: #00AFB9;
-        border: solid 2px #FDFCDC;
+        color: #222222;
+        background-color: white;
+        border: solid 1px #222222;
         padding: 0.5rem;
         border-radius: 40px;
         width: 25%;
