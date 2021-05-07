@@ -7,7 +7,7 @@
 }
 
 .projects-text-area {
-    background-color: #AB1A1A;
+    background-color: #C10F0F;
     margin: 1rem;
     padding: 1rem;
     border-radius: 30px;
@@ -54,7 +54,7 @@
 
 @media (max-width:900px) and (min-width:481px) {
     .projects-text-area {
-        background-color: #AB1A1A;
+        background-color: #C10F0F;
         margin: 3rem;
         padding: 3rem;
         border-radius: 30px;
@@ -83,7 +83,7 @@
     }
 
     .projects-text-area {
-        background-color: #AB1A1A;
+        background-color: #C10F0F;
         margin: 3rem 10%;
         padding: 3rem;
         border-radius: 30px;
